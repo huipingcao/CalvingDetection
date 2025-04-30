@@ -4,7 +4,7 @@ This github repository keeps the code and data for calving detection.
 ---
 
 ## Requirements
-- Python 3.x
+- Python 3.11.12
 - Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `joblib`, `seaborn`, `dateutil`, `torch`
 
 ---
@@ -13,6 +13,8 @@ This project focuses on detecting calving behavior in cattle using sensor data. 
 ## Stage 1: Anomaly Detection
 First change all the file paths marked with
 **# Change Required  #**
+
+The paths in the code point to folders in this Github Repo just to indicate which data is being used. When you actually run it you may want to download the data and change the corresponding path to your local path.
 
 ### Workflow
 #### Training autoencoder
@@ -59,5 +61,6 @@ First change all the file paths marked with
 ### Output
 - Trained Random Forest model
 
+You can then go back to the Stage1 code and change USE_CLF to True in order to plot the results with the classification results.
 ---
 
