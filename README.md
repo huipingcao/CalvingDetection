@@ -5,7 +5,7 @@ This github repository keeps the code and data for calving detection.
 
 ## Requirements
 - Python 3.11.12
-- Libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `joblib`, `seaborn`, `dateutil`, `torch`
+- Libraries: `os`, `pandas`, `numpy`, `scikit-learn`, `random`, `matplotlib`, `joblib`, `seaborn`, `datetime`, `dateutil`, `pytz`, `torch`
 
 ---
 This project focuses on detecting calving behavior in cattle using sensor data. It is divided into two main stages:
