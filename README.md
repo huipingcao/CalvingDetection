@@ -61,6 +61,6 @@ First change all the file paths marked with
 ### Output
 - Trained Random Forest model
 
-You can then go back to the Stage1 code and change USE_CLF to True in order to plot the results with the classification results.
+#### You can then go back to the Stage1 code and turn USE_CLF to be True in order to plot the results with the classification results.
 ---
 
